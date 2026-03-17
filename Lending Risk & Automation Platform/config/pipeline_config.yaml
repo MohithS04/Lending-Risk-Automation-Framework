@@ -1,0 +1,7 @@
+api:
+  url: "http://localhost:8000"
+  watermark_path: "config/watermark.json"
+
+pipeline:
+  batch_size: 500
+  processed_dir: "data/processed"

@@ -1,0 +1,4 @@
+2026-03-16 22:53:45,739 - IngestionEngine - INFO - Fetching data from http://localhost:8000 with params: {'since': '2000-01-01T00:00:00', 'limit': 50}
+2026-03-16 22:53:45,750 - httpx - INFO - HTTP Request: GET http://localhost:8000/loans?since=2000-01-01T00%3A00%3A00&limit=50 "HTTP/1.1 200 OK"
+2026-03-16 22:53:45,752 - IngestionEngine - INFO - Successfully ingested 50 records into data/raw/2026-03-16/loans_225345.json
+2026-03-16 22:53:45,752 - IngestionEngine - INFO - Updated watermark to 2026-03-16T22:53:45.749631
